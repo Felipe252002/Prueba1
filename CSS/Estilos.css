@@ -1,3 +1,18 @@
-#a{
-    
+.barratop.tienda{
+    padding-left: 0;
+}
+
+.barratop {
+    box-shadow: 1px 2px rgb(red, green, blue /10%);
+    height: 70px;
+}
+
+.barratop {
+    background-color: rgb(255, 0, 0);
+    bottom: 0;
+    height: 90px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
