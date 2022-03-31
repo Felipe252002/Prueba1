@@ -8,7 +8,7 @@
 }*/
 
 .barratop {
-    background-color: rgb(18, 194, 18);
+    background-color: rgb(19, 167, 19);
     height: 100px;
     position: fixed;
     width: 100%;
@@ -16,19 +16,30 @@
     left: 0;
 }
 
-.cabezera a{
-    text-decoration: none;
-    color: black;
-}
-.barratop .cabezera{
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 24px;
-    line-height: 1;
-}
-
 .barratop a{
     margin: auto;
     position: relative;
     width: 100%;
 }
+
+.cabezera a{
+    text-decoration: none;
+    color: black;
+}
+.barratop .cabezera{
+    display: flex;
+    height: 100%;
+    text-transform: capitalize;
+    font-family:bold sans-serif;
+    font-size: 24px;
+}
+
+/*align-items: center;
+    color: #333;
+    display: flex;
+    font-size: 24px;
+    height: 100%;
+    line-height: 1;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;*/
